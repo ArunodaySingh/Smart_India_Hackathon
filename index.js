@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.status(200).send("I got the request");
+  res.status(200).send("I got the request get side");
 });
 
 app.post("/", (req, res) => {
